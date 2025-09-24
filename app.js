@@ -6,5 +6,6 @@ console.log("hello multi media designere");
 function sayHello() {
   document.querySelector("h3").textContent =
     "Hej" + document.queryselector("input").value;
-  document.querySelector("button").addEventListener("click", sayHello);
 }
+
+document.querySelector("button").addEventListener("click", sayHello);
