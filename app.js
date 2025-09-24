@@ -5,7 +5,7 @@ console.log("hello multi media designere");
 //funktion når man trykker på knappen
 function sayHello() {
   document.querySelector("h3").textContent =
-    "Hej" + document.queryselector("input").value;
+    "Hej" + document.querySelector("input").value;
 }
 
 document.querySelector("button").addEventListener("click", sayHello);
